@@ -1,4 +1,5 @@
-res://scenes/coin.tscn
+res://scripts/killzone.gd
+res://scenes/killzone.tscn
 res://scenes/game.tscn
 res://scenes/player.tscn
-res://scripts/coin.gd
+res://scenes/coin.tscn

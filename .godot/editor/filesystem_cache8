@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1715102872
+::res://::1715281706
 icon.svg::CompressedTexture2D::6980728254184139652::1714761307::1714762679::1::::<><>::
 README.md::TextFile::-1::1714762506::0::1::::<><>::
 ::res://assets/::1714761453
@@ -23,9 +23,13 @@ platforms.png::CompressedTexture2D::1425296592629343313::1714761453::1714762679:
 slime_green.png::CompressedTexture2D::8141584034224659308::1714761453::1714762679::1::::<><>::
 slime_purple.png::CompressedTexture2D::2576441257617957025::1714761453::1714762679::1::::<><>::
 world_tileset.png::CompressedTexture2D::8228525244255966212::1714761453::1714762679::1::::<><>::
-::res://scenes/::1715101884
-game.tscn::PackedScene::7113066930933887336::1715101884::0::1::::<><>::uid://c6x7dbdxl7ykd::::res://scenes/player.tscn<>uid://dph7uxriofo1q::::res://assets/sprites/world_tileset.png<>uid://b4os8wu2klk8p::::res://scenes/platform.tscn
+::res://scenes/::1715280868
+coin.tscn::PackedScene::3152034293245521546::1715104791::0::1::::<><>::uid://8gcl2qmgnmq8::::res://assets/sprites/coin.png<>res://scripts/coin.gd
+game.tscn::PackedScene::7113066930933887336::1715104791::0::1::::<><>::uid://c6x7dbdxl7ykd::::res://scenes/player.tscn<>uid://dph7uxriofo1q::::res://assets/sprites/world_tileset.png<>uid://b4os8wu2klk8p::::res://scenes/platform.tscn<>uid://bk54srg3x2rli::::res://scenes/coin.tscn<>uid://bib0kj6um70ei::::res://scenes/killzone.tscn
+killzone.tscn::PackedScene::2951532114834749940::1715280868::0::1::::<><>::res://scripts/killzone.gd
 platform.tscn::PackedScene::4451951462471891313::1715022070::0::1::::<><>::uid://ukoorg0j0vlp::::res://assets/sprites/platforms.png
-player.tscn::PackedScene::6998124567877586055::1715101884::0::1::::<><>::res://scripts/player.gd<>uid://o4mde6vy1ejr::::res://assets/sprites/knight.png
-::res://scripts/::1715022273
+player.tscn::PackedScene::6998124567877586055::1715104791::0::1::::<><>::res://scripts/player.gd<>uid://o4mde6vy1ejr::::res://assets/sprites/knight.png
+::res://scripts/::1715280802
+coin.gd::GDScript::-1::1715104065::0::1::::<>Area2D<>::
+killzone.gd::GDScript::-1::1715280802::0::1::::<>Area2D<>::
 player.gd::GDScript::-1::1715022273::0::1::::<>CharacterBody2D<>::
