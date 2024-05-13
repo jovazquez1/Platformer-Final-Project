@@ -1,8 +1,10 @@
-Node
+RayCast2D
 CollisionShape2D
+AnimatedSprite2D
+Node2D
+Node
 Timer
 Area2D
-AnimatedSprite2D
 AnimationPlayer
 Sprite2D
 AnimatableBody2D
