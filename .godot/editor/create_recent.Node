@@ -1,8 +1,9 @@
+Node
+Label
 RayCast2D
 CollisionShape2D
 AnimatedSprite2D
 Node2D
-Node
 Timer
 Area2D
 AnimationPlayer

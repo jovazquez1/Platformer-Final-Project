@@ -1,7 +1,2 @@
-res://node_2d.tscn
 res://scenes/game.tscn
-res://scenes/slime.tscn
-res://scripts/slime.gd
-res://scripts/killzone.gd
-res://scenes/player.tscn
 res://scripts/player.gd
