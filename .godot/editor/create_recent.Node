@@ -1,3 +1,6 @@
+AnimationPlayer
+AnimationTree
+AudioStreamPlayer2D
 Node
 Label
 RayCast2D
@@ -6,8 +9,6 @@ AnimatedSprite2D
 Node2D
 Timer
 Area2D
-AnimationPlayer
 Sprite2D
 AnimatableBody2D
 TileMap
-StaticBody2D
