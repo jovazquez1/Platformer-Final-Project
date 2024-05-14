@@ -1,2 +1,4 @@
 res://scenes/game.tscn
 res://scripts/player.gd
+res://scripts/game_manager.gd
+res://scripts/coin.gd
