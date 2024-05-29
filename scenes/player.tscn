@@ -1,6 +1,7 @@
-[gd_scene load_steps=21 format=3 uid="uid://c6x7dbdxl7ykd"]
+[gd_scene load_steps=22 format=3 uid="uid://c6x7dbdxl7ykd"]
 
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_0bplw"]
+[ext_resource type="AudioStream" uid="uid://vyjyayakp5gd" path="res://assets/sounds/jump.wav" id="3_hltno"]
 [ext_resource type="Texture2D" uid="uid://bjtn1w16vv6c" path="res://assets/sprites/AnimationSheet_Character.png" id="3_tgyru"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_gnboh"]
@@ -153,3 +154,6 @@ frame_progress = 0.140621
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, -9)
 shape = SubResource("CapsuleShape2D_1jbkx")
+
+[node name="JumpSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_hltno")
