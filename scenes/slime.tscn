@@ -1,8 +1,9 @@
-[gd_scene load_steps=10 format=3 uid="uid://djc1h8nwlxp6h"]
+[gd_scene load_steps=11 format=3 uid="uid://djc1h8nwlxp6h"]
 
 [ext_resource type="Texture2D" uid="uid://dn83x1w38pgrk" path="res://assets/sprites/slime_green.png" id="1_sqx6i"]
 [ext_resource type="Script" path="res://scripts/slime.gd" id="1_wmkqn"]
 [ext_resource type="PackedScene" uid="uid://bib0kj6um70ei" path="res://scenes/killzone.tscn" id="2_gqw4d"]
+[ext_resource type="AudioStream" uid="uid://dtwcavo13p3be" path="res://assets/sounds/slime.mp3" id="4_t2152"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_t0gio"]
 atlas = ExtResource("1_sqx6i")
@@ -66,3 +67,6 @@ target_position = Vector2(10, 0)
 [node name="RayCastLeft" type="RayCast2D" parent="."]
 position = Vector2(0, 5)
 target_position = Vector2(-10, 0)
+
+[node name="SlimeBounce" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_t2152")
