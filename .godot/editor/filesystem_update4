@@ -1,5 +1,8 @@
 res://scenes/player.tscn
-res://scripts/player.gd
 res://scenes/game.tscn
 res://scenes/slime.tscn
-res://scripts/slime.gd
+res://scripts/Spikes.gd
+res://scenes/spikes.tscn
+res://scripts/Area2D.gd
+res://scenes/killzone.tscn
+res://scripts/player.gd
