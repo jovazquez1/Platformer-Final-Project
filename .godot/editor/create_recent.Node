@@ -1,14 +1,18 @@
-Node
-Area2D
-Node2D
-CollisionShape2D
-Sprite2D
-AudioStreamPlayer2D
+<<<<<<< Updated upstream
+=======
 Timer
+AudioStreamPlayer2D
+>>>>>>> Stashed changes
 AnimationPlayer
 AnimationTree
+AudioStreamPlayer2D
+Node
 Label
 RayCast2D
+CollisionShape2D
 AnimatedSprite2D
+Node2D
+Area2D
+Sprite2D
 AnimatableBody2D
 TileMap

@@ -6,10 +6,6 @@ var can_coyote_jump = false
 var has_jumped = false  
 @onready var animated_sprite = $AnimatedSprite2D
 @onready var coyote_jump_timer = $CoyoteJumpTimer
-@onready var jump_sound = $JumpSound
-
-func _ready():
-	coyote_jump_timer.one_shot = true 
 
 func _physics_process(delta):
 	if not is_on_floor():
@@ -22,7 +18,6 @@ func _physics_process(delta):
 		has_jumped = false 
 	if Input.is_action_just_pressed("jump") and (is_on_floor() or can_coyote_jump) and !has_jumped:
 		velocity.y = JUMP_VELOCITY
-		jump_sound.play()
 		coyote_jump_timer.stop()
 		can_coyote_jump = false
 		has_jumped = true 
@@ -45,9 +40,8 @@ func _physics_process(delta):
 	move_and_slide()
 
 func _on_coyote_jump_timer_timeout():
-	can_coyote_jump = true
+	can_coyote_jump = false
 
 func _process(delta):
-	if not is_on_floor() and !coyote_jump_timer.is_stopped():
+	if not is_on_floor() and !coyote_jump_timer.time_left > 0.0:
 		can_coyote_jump = true
-

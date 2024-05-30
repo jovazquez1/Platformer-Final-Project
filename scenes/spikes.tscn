@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=3 uid="uid://d0nrwyhn3w4qb"]
+[gd_scene load_steps=5 format=3 uid="uid://dxmfkw86qqwbd"]
 
 [ext_resource type="Script" path="res://scripts/Spikes.gd" id="1_jhd41"]
 [ext_resource type="Texture2D" path="res://assets/sprites/spikes.png" id="2_q6s42"]
