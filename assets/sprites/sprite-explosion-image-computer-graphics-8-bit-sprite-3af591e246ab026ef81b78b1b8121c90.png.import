@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dqxmp20x3giym"
-path="res://.godot/imported/woods.png-6e70ae7e9d98752e230f5d51babcaf64.ctex"
+uid="uid://bmh3gvukkki2s"
+path="res://.godot/imported/sprite-explosion-image-computer-graphics-8-bit-sprite-3af591e246ab026ef81b78b1b8121c90.png-9ff790746baa63dff67a24cebf8bbc72.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://woods.png"
-dest_files=["res://.godot/imported/woods.png-6e70ae7e9d98752e230f5d51babcaf64.ctex"]
+source_file="res://assets/sprites/sprite-explosion-image-computer-graphics-8-bit-sprite-3af591e246ab026ef81b78b1b8121c90.png"
+dest_files=["res://.godot/imported/sprite-explosion-image-computer-graphics-8-bit-sprite-3af591e246ab026ef81b78b1b8121c90.png-9ff790746baa63dff67a24cebf8bbc72.ctex"]
 
 [params]
 
