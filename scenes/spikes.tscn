@@ -1,7 +1,7 @@
-[gd_scene load_steps=5 format=3 uid="uid://bc5qmbmvs45r0"]
+[gd_scene load_steps=5 format=3 uid="uid://bbrjmmwsn8va2"]
 
 [ext_resource type="Script" path="res://scripts/Spikes.gd" id="1_jhd41"]
-[ext_resource type="Texture2D" uid="uid://tmprja2nsuxm" path="res://assets/sprites/spikes.png" id="2_q6s42"]
+[ext_resource type="Texture2D" path="res://assets/sprites/spikes.png" id="2_q6s42"]
 [ext_resource type="PackedScene" uid="uid://bib0kj6um70ei" path="res://scenes/killzone.tscn" id="3_x1dvw"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_eme3j"]

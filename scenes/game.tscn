@@ -9,7 +9,7 @@
 [ext_resource type="PackedScene" uid="uid://bib0kj6um70ei" path="res://scenes/killzone.tscn" id="5_atd3x"]
 [ext_resource type="PackedScene" uid="uid://djc1h8nwlxp6h" path="res://scenes/slime.tscn" id="6_rjy1u"]
 [ext_resource type="FontFile" uid="uid://wdkhb2mduxe4" path="res://assets/fonts/PixelOperator8.ttf" id="7_dxi52"]
-[ext_resource type="PackedScene" uid="uid://bc5qmbmvs45r0" path="res://scenes/spikes.tscn" id="10_ocyri"]
+[ext_resource type="PackedScene" uid="uid://bbrjmmwsn8va2" path="res://scenes/spikes.tscn" id="10_ocyri"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_nm28w"]
 texture = ExtResource("2_xsj6r")
@@ -690,7 +690,7 @@ position = Vector2(264, -11)
 position = Vector2(617, 117)
 
 [node name="Spikes" parent="." instance=ExtResource("10_ocyri")]
-position = Vector2(1110, 23)
+position = Vector2(1111, 23)
 rotation = -3.13031
 
 [node name="Spikes2" parent="." instance=ExtResource("10_ocyri")]
