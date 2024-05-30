@@ -1,0 +1,31 @@
+[gd_scene load_steps=3 format=3 uid="uid://ej4cimxda81i"]
+
+[ext_resource type="Script" path="res://scripts/start_menu.gd" id="1_rwe88"]
+[ext_resource type="FontFile" uid="uid://wdkhb2mduxe4" path="res://assets/fonts/PixelOperator8.ttf" id="2_mutax"]
+
+[node name="StartMenu" type="CenterContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_rwe88")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 2
+alignment = 1
+
+[node name="StartGameButton" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_mutax")
+theme_override_font_sizes/font_size = 80
+text = "Start Game"
+
+[node name="QuitButton" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_mutax")
+theme_override_font_sizes/font_size = 80
+text = "Quit "
+
+[connection signal="pressed" from="VBoxContainer/StartGameButton" to="." method="_on_start_game_button_pressed"]
+[connection signal="pressed" from="VBoxContainer/QuitButton" to="." method="_on_quit_button_pressed"]

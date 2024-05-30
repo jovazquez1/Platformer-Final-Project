@@ -1,13 +1,7 @@
+res://scripts/start_menu.gd
+res://scenes/start_menu.tscn
 res://scenes/player.tscn
 res://scenes/game.tscn
 res://scenes/slime.tscn
-res://scenes/coin.tscn
 res://scenes/spikes.tscn
-res://scenes/fruit.tscn
-res://scripts/coin.gd
-res://scripts/game_manager.gd
-res://scripts/killzone.gd
-res://scripts/player.gd
-res://scripts/slime.gd
-res://scripts/Area2D.gd
-res://scripts/Spikes.gd
+res://scenes/coin.tscn

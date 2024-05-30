@@ -7,6 +7,7 @@ var direction = 1
 @onready var slime_bounce = $SlimeBounce
 
 
+
 func _process(delta):
 	if ray_cast_right.is_colliding():
 		slime_bounce.play()
