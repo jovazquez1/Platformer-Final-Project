@@ -1,13 +1,13 @@
 res://scenes/player.tscn
-res://scripts/player.gd
 res://scenes/game.tscn
 res://scenes/slime.tscn
-<<<<<<< Updated upstream
-res://scripts/slime.gd
-=======
-res://scenes/spikes.tscn
-res://scenes/killzone.tscn
-res://scripts/slime.gd
-res://scripts/killzone.gd
 res://scenes/coin.tscn
->>>>>>> Stashed changes
+res://scenes/spikes.tscn
+res://scenes/fruit.tscn
+res://scripts/coin.gd
+res://scripts/game_manager.gd
+res://scripts/killzone.gd
+res://scripts/player.gd
+res://scripts/slime.gd
+res://scripts/Area2D.gd
+res://scripts/Spikes.gd

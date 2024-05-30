@@ -6,6 +6,8 @@ var direction = 1
 @onready var animated_sprite = $AnimatedSprite2D
 @onready var slime_bounce = $SlimeBounce
 
+
+
 func _process(delta):
 	if ray_cast_right.is_colliding():
 		slime_bounce.play()
