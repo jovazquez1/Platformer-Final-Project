@@ -50,3 +50,7 @@ func _on_coyote_jump_timer_timeout():
 func _process(delta):
 	if not is_on_floor() and !coyote_jump_timer.is_stopped():
 		can_coyote_jump = true
+
+
+func _on_area_2d_body_entered(body):
+	get_tree().change_scene_to_file("res://scenes/start_menu.tscn")
